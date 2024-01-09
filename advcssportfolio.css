@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* By default: flex-direction is row 
+justify-content is the main axis
+align-items is the cross-axis*/
+
+
+nav {
+  background-color: rgb(51, 52, 61, 1);
+  color: rgb(166, 202, 203, 1);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/* header { 
+  position: absolute;
+} */
+
+a {
+  /* background-color: blueviolet; */
+  font-size: 20px;
+  color: rgb(166, 202, 203, 1);
+  /* border: 1px dashed red; */
+  padding: 5px;
+  margin: 16px;
+  border-bottom: 4px solid; 
+  text-decoration: none;
+}
+
+.hero-image {
+  background-image: none, url("assets/flowers.avif");
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+  height: 300px;
+  width: 100vw;
+}
+
+.hero-text {
+  float: right; 
+  margin-bottom: 10px ;
+  /* border: 8px dashed red;  */
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  position: relative;
+  top: 10px;
+  left: 0px;
+  width: 20%;
+  text-align: center;
+  color: rgb(0, 0, 0, 1);
+  padding: 8px;
+  background-color: rgb(166, 202, 203, 1);
+}
+
+
+.name-logo {
+  /* border: 8px dashed red; */
+  font-size: 30px;
+  font-weight: 600;
+  position:absolute;
+  top: 10px;
+  left: 0px;
+  width: 35%;
+  text-align: right;
+  padding: 10px;
+  background-color: rgb(166, 202, 203, 1);
+}
+
+main {
+  background-color: rgb(238, 238, 245, 1);
+}
+
+section {
+  /* background-color: purple; */
+  /* height: 200px; */
+  display: flex;
+  padding: 16px;
+  justify-content:left;
+}
+
+.section-content {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 20 px,
+  text-align: center;
+
+}
+
+h2 {
+  background-color: rgb(238, 238, 245, 1);
+  width: 15%;
+  text-align: left;
+  padding-right: 4px
+}
+
+.about-me-content {
+  background-color: rgb(238, 238, 245, 1);
+  width: 80%;
+  left-padding: 20 px;
+}
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20 px,
+  text-align: center;
+}
+
+.contact-me-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: left;
+  flex-wrap: wrap;
+}
+
+.contact-detail {
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+  border-bottom: 4px solid; 
+}
