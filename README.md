@@ -6,4 +6,6 @@ Starter code: https://github.com/Cocho011/advancedcss_portfolio_page/blob/ceff86
 
 Screenshot path: advancedcss_portfolio_page/assets/module.1.challenge.portfolio.screenshot.png. Also added the screenshot to assets folder.
 
+Deployed app: https://cocho011.github.io/advancedcss_portfolio_page/
+
 Note: Most application links all function correctly. HTML and CSS properties need further consolidation and organization. 
